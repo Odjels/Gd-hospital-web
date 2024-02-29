@@ -204,7 +204,7 @@ section{
     box-shadow: var(--box-shadow);
     border: var(--border);
     padding: 2.5rem;
-    flex: 1 1 200px;
+    flex: 1 1 ;
    /* width: 350px;
     height: 400px;*/
     padding: 2rem;
