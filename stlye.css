@@ -165,10 +165,14 @@ section{
     line-height: 1.8;
 }
 .about .row{
-    display: grid;
+    display: flex;
+    flex: 1 1 10rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /*display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
-    gap: 3rem;
-    justify-content: center;   
+    /*gap: 3rem;
+    justify-content: center; */ 
 }
 
 .about .row .image img{
@@ -333,9 +337,26 @@ textarea{
     color: #fff;
 }
 
-form .send-btn:hover{
+row1.send-btn:hover{
     background: var(--green);
 }
+
+.contact__response{
+    font-size: var(--small-font-size);
+    position: absolute;
+    bottom: 2.8rem;
+    left: 1.5rem;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.submit-button i {
+    margin-right: 5px;
+}
+
 .details .one{
     margin-bottom: 20px;
 }
@@ -414,14 +435,41 @@ form .send-btn:hover{
     margin: .3rem;
 }
 
+.details .four{
+    margin-bottom: 20px;
+}
+.details .four h3{
+    color: var(--green);
+    font-size: 1.5rem;
+}
+
+.details .four p{
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.details .four a{
+    height: 3rem;
+    width: 2rem;
+    line-height: 3.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background: var(--green);
+    border-radius: .5rem;
+    border: var(--border);
+    margin: .3rem;
+}
+
 .book .row{
-    display: grid;
+    /*display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    justify-content: center;
-    /*display: flex;
+    justify-content: center;*/
+    display: flex;
     flex: 1 1 10rem;
-    flex-wrap: wrap;*/
+    flex-wrap: wrap;
+    gap: 2rem;
     
 }
 
