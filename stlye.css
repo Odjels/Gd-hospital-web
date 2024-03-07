@@ -172,7 +172,7 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     gap: 3rem;
-    justify-content: center;  
+    justify-content: center; 
 }
 
 .about .row .image img{
@@ -466,7 +466,7 @@ row1.send-btn:hover{
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     justify-content: center;
-    /*display: flex;
+   /* display: flex;
     flex: 1 1 10rem;
     flex-wrap: wrap;
     gap: 2rem;*/
