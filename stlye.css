@@ -165,14 +165,14 @@ section{
     line-height: 1.8;
 }
 .about .row{
-    display: flex;
+    /*display: flex;
     flex: 1 1 10rem;
     flex-wrap: wrap;
-    gap: 2rem;
-    /*display: grid;
+    gap: 2rem;*/
+    display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
-    /*gap: 3rem;
-    justify-content: center; */ 
+    gap: 3rem;
+    justify-content: center;  
 }
 
 .about .row .image img{
@@ -462,14 +462,14 @@ row1.send-btn:hover{
 }
 
 .book .row{
-    /*display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    justify-content: center;*/
-    display: flex;
+    justify-content: center;
+    /*display: flex;
     flex: 1 1 10rem;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 2rem;*/
     
 }
 
